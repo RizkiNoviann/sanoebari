@@ -7,8 +7,9 @@ module.exports = {
         '1000': '32rem',
       },
       backgroundSize:{
-        'hero1' : '50% 50%',
-      }
+        'right-ovr' : '50% 100%',
+        'left-ovr' : '-50% 100%',
+      },  
     },
     fontFamily:{
       'headline': "DM Serif Display",

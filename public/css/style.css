@@ -1099,6 +1099,10 @@ input:checked + .toggle-bg{
   left: 0px;
 }
 
+.left-\[37\%\]{
+  left: 37%;
+}
+
 .right-0{
   right: 0px;
 }
@@ -1107,36 +1111,8 @@ input:checked + .toggle-bg{
   top: 0px;
 }
 
-.top-\[25\%\]{
-  top: 25%;
-}
-
 .top-\[50\%\]{
   top: 50%;
-}
-
-.left-\[50\%\]{
-  left: 50%;
-}
-
-.left-\[30\%\]{
-  left: 30%;
-}
-
-.left-\[40\%\]{
-  left: 40%;
-}
-
-.top-\[30\%\]{
-  top: 30%;
-}
-
-.left-\[45\%\]{
-  left: 45%;
-}
-
-.left-\[37\%\]{
-  left: 37%;
 }
 
 .z-10{
@@ -1292,10 +1268,6 @@ input:checked + .toggle-bg{
 
 .h-full{
   height: 100%;
-}
-
-.h-screen{
-  height: 100vh;
 }
 
 .w-1\/2{
@@ -1604,8 +1576,44 @@ input:checked + .toggle-bg{
   --tw-gradient-to: #6B7280 var(--tw-gradient-to-position);
 }
 
-.bg-hero1{
-  background-size: 50% 50%;
+.to-white{
+  --tw-gradient-to: #ffffff var(--tw-gradient-to-position);
+}
+
+.to-black{
+  --tw-gradient-to: #000000 var(--tw-gradient-to-position);
+}
+
+.to-gray-100{
+  --tw-gradient-to: #F3F4F6 var(--tw-gradient-to-position);
+}
+
+.to-transparent{
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+
+.to-current{
+  --tw-gradient-to: currentColor var(--tw-gradient-to-position);
+}
+
+.to-slate-50{
+  --tw-gradient-to: #f8fafc var(--tw-gradient-to-position);
+}
+
+.to-gray-300{
+  --tw-gradient-to: #D1D5DB var(--tw-gradient-to-position);
+}
+
+.to-gray-400{
+  --tw-gradient-to: #9CA3AF var(--tw-gradient-to-position);
+}
+
+.bg-right-ovr{
+  background-size: 50% 100%;
+}
+
+.bg-left-ovr{
+  background-size: -50% 100%;
 }
 
 .object-cover{
@@ -1708,6 +1716,11 @@ input:checked + .toggle-bg{
   line-height: 2.5rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1721,11 +1734,6 @@ input:checked + .toggle-bg{
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-bold{
@@ -1808,6 +1816,14 @@ input:checked + .toggle-bg{
 
 .mix-blend-overlay{
   mix-blend-mode: overlay;
+}
+
+.mix-blend-darken{
+  mix-blend-mode: darken;
+}
+
+.mix-blend-lighten{
+  mix-blend-mode: lighten;
 }
 
 .shadow{
