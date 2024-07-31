@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       height:{
         '1000': '32rem',
+      },
+      backgroundSize:{
+        'hero1' : '50% 50%',
       }
     },
     fontFamily:{

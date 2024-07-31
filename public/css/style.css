@@ -1107,6 +1107,38 @@ input:checked + .toggle-bg{
   top: 0px;
 }
 
+.top-\[25\%\]{
+  top: 25%;
+}
+
+.top-\[50\%\]{
+  top: 50%;
+}
+
+.left-\[50\%\]{
+  left: 50%;
+}
+
+.left-\[30\%\]{
+  left: 30%;
+}
+
+.left-\[40\%\]{
+  left: 40%;
+}
+
+.top-\[30\%\]{
+  top: 30%;
+}
+
+.left-\[45\%\]{
+  left: 45%;
+}
+
+.left-\[37\%\]{
+  left: 37%;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -1260,6 +1292,10 @@ input:checked + .toggle-bg{
 
 .h-full{
   height: 100%;
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .w-1\/2{
@@ -1550,6 +1586,10 @@ input:checked + .toggle-bg{
   background-color: rgb(228 228 231 / var(--tw-bg-opacity));
 }
 
+.bg-gradient-to-l{
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+}
+
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1562,6 +1602,10 @@ input:checked + .toggle-bg{
 
 .to-gray-500{
   --tw-gradient-to: #6B7280 var(--tw-gradient-to-position);
+}
+
+.bg-hero1{
+  background-size: 50% 50%;
 }
 
 .object-cover{
@@ -1641,12 +1685,12 @@ input:checked + .toggle-bg{
   text-align: start;
 }
 
-.font-headline{
-  font-family: DM Serif Display;
-}
-
 .font-body{
   font-family: "Poppins", sans-serif;;
+}
+
+.font-headline{
+  font-family: DM Serif Display;
 }
 
 .text-2xl{
@@ -1679,8 +1723,17 @@ input:checked + .toggle-bg{
   line-height: 1.75rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold{
   font-weight: 700;
+}
+
+.font-light{
+  font-weight: 300;
 }
 
 .font-medium{
@@ -1693,10 +1746,6 @@ input:checked + .toggle-bg{
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-light{
-  font-weight: 300;
 }
 
 .uppercase{
