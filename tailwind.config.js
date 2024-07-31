@@ -4,9 +4,13 @@ module.exports = {
   theme: {
     extend: {
       height:{
-        '1000': '100%',
+        '1000': '32rem',
       }
     },
+    fontFamily:{
+      'headline': "DM Serif Display",
+      'body' : '"Poppins", sans-serif;'
+    },  
   },
   plugins: [
     require('flowbite/plugin')
