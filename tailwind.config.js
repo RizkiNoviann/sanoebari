@@ -9,11 +9,15 @@ module.exports = {
       backgroundSize:{
         'right-ovr' : '50% 100%',
         'left-ovr' : '-50% 100%',
-      },  
-    },
-    fontFamily:{
-      'headline': "DM Serif Display",
-      'body' : '"Poppins", sans-serif;'
+      }, 
+      fontFamily:{
+        'headline': "DM Serif Display",
+        'body' : '"Poppins", sans-serif;'
+      },
+      
+      backgroundImage:{
+        hero1 : "url('/src/img/Asset Gradasi.png')"
+      }
     },  
   },
   plugins: [
